@@ -11,7 +11,7 @@ public class demo1 {
         GPTB2(a, b, c);
     }
 
-    public static int NhapSo (String str)
+    private static int NhapSo (String str)
     {
         int x;
         Scanner sc = new Scanner(System.in);
@@ -20,7 +20,7 @@ public class demo1 {
         return x;
     }
 
-    public static void GPTB2(int a, int b, int c) {
+    private static void GPTB2(int a, int b, int c) {
         double x1, x2;
         double delta = Math.pow(b, 2) - 4*a*c;
         if (delta < 0) {
